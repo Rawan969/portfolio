@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    font-family:'Roboto', sans-serif;;
+}
+.container{
+    width: 75%;
+}
+h1,h2{
+    font-size: 60px;
+    font-family: dosis;
+}
+h2{
+    font-size: 50px;
+}
+
+.about{
+    background-image: url(../img/0c599bc3-c78a-4960-a53f-a4f356f933bf.jpg);
+    background-size: cover;
+    height:100vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-content{
+    float: right;
+    width: 40%;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-content h2 {
+    font-size: 30px;
+    font-weight: 400px;
+    color:#253048 ;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    font-family: 'Dancing Script', cursive;
+    color:#c1ab84;
+    margin-bottom: 20px;
+}
+.about-content p{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
